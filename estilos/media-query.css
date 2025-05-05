@@ -9,11 +9,6 @@ Desktop: 992 a 1200px
 Grandes telas: acima de 1200px
 */
 
-/*
-    #49a09d;
-    #5f2c82;
-    */
-
 :root {
     --cor1: #49a09d;
     --cor2: #5f2c82;
@@ -55,13 +50,21 @@ Grandes telas: acima de 1200px
     }
 
     section#login > div#imagem {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     section#login > div#formulario{
-        float: right;
+        float: left;
         width: 50%;
+    }
+
+    div#formulario > h1 {
+        font-size: 2em;
+    }
+
+    div#formulario > p {
+        font-size: 1.2em;
     }
 }
